@@ -1,8 +1,8 @@
 # Improved Tridents (datapack)
 
-__Requires__: Minecraft 1.21.x+
+This datapack adds sensible improvements to the [Trident](https://minecraft.wiki/w/Trident) to make it a viable melee and ranged weapon adjacent to the Sword.
 
-This datapack adds sensible enchantments to the [Trident](https://minecraft.wiki/w/Trident) to make it a viable melee and ranged weapon adjacent to the Sword.
+__Requires__: Minecraft 1.21.x +
 
 All enchants added are completely unmodified - except for [Loyalty](https://minecraft.wiki/w/Loyalty), which has a ~10-30% (scaling on enchant level) faster recall to hand when thrown.
 
@@ -11,11 +11,15 @@ It also adds a fairly balanced crafting recipe requiring:
 - 2 x [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod) and
 - 3 x [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard)
 
-__Install__
+Additionally, one trident is smeltable into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod).
+
+For more detail, see [Changes & TODO](#changes-todo) (below)!
+
+## __Install__
 
 Simply download the zip archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases) and extract the archive directly to `datapacks` folder within your world.
 
-## Prospective changes
+<h2 id="changes-todo">Changes & TODO</h2>
 
 1. [DONE] __Craftable Tridents__ - 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
 
@@ -25,7 +29,7 @@ Simply download the zip archive from [Releases](https://github.com/Euheimr/Impro
 
     ![image](.github/img/trident-smelt.png)
 
-3. __Enchantments__
+3. [PARTIAL] __Enchantments__
 
     - [x] [Looting](https://minecraft.wiki/w/Looting) - mobs to drop more items and increases the chances of rare drops
     - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand
@@ -41,34 +45,31 @@ Simply download the zip archive from [Releases](https://github.com/Euheimr/Impro
 
     __<sup>2</sup>__ *Only __one__ of these enchantments may be applied*
 
-4. ~~__Repairable Tridents__ - use breeze rod(s) to add durability~~ 
+4. [ ] [Loyalty](https://minecraft.wiki/w/Loyalty) enchanted tridents return from the Void
 
-    __Cannot add recipes to Anvil :(__
+5. [ ] [Trident](https://minecraft.wiki/w/Trident) returns to inventory slot it was thrown from
+   - __Note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
 
-5. ~~__Combat Tests update__(unreleased experimental snapshot in 2019/2020 - [official wiki link](https://minecraft.wiki/w/Java_Edition_Combat_Tests))~~:
+6. ~~__Repairable Tridents__ - use breeze rod(s) to add durability~~  - __Cannot add recipes to Anvil :(__
 
-    __Not possible__ to change item base stats globally in a datapack :( ...
+7. ~~__Combat Tests update__(unreleased experimental snapshot in 2019/2020 - [official wiki link](https://minecraft.wiki/w/Java_Edition_Combat_Tests))~~:
 
-    __Only Mojang can do this__ or cannot be done with a datapack alone as __the functionality does not exist for datapacks__
+    __Not possible__ to change item base stats globally in a datapack :(
+
+    __This functionality does not exist for datapacks__ *The enchantment changes might be doable though!*
 
    - ~~__Base Damage__:     9 ![image](.github/img/Heart.webp) -> 7 ![image](.github/img/Heart.webp)~~
    - ~~__Attack speed__:    1.1 -> 2.0~~
    - ~~__Attack Range__:    3 blocks -> 3.5 blocks~~
-   - ~~__Enchantments__:~~
-        - ~~__Impaling__: Applies to all wet mobs (in water / rain) as well as aquatic mobs~~
-        - ~~__Loyalty__: tridents thrown to the void (the End) always return to their owner~~
+   - __Enchantments__:
+        - __Impaling__: Applies to all wet mobs (in water / rain) as well as aquatic mobs
+        - __Loyalty__: tridents thrown to the void (the End) always return to their owner
 
-## TODO
+---
 
-- [x] Crafting recipe
-- [x] Major enchants (looting, loyalty mod, fire aspect... all noted above)
-- [ ] Impaling also affects wet mobs in water/rain
-- [ ] Loyalty enchanted tridents return from the Void
-- [ ] Trident returns to inventory slot it was thrown from
-  - __Note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
-- [ ] ~~Piercing~~ __does not work__ (yet? might be possible)
+---
 
-## Developer's area
+<h2 id="dev">Developer's Area</h2>
 
 ### Datapack Definitions
 
@@ -133,7 +134,6 @@ Simply download the zip archive from [Releases](https://github.com/Euheimr/Impro
   | Mending     | Repairs the trident when obtaining experience.                                                              | I          | ![image](.github/img/anvil.webp)                    | 2       |
 
 ** *__Loyalty__ and __Channeling__ are incompatable with __Riptide__*
-
 
 ##### __Impaling (damage/level)__ - [wiki link](https://minecraft.wiki/w/Trident#Impaling_damage)
 
