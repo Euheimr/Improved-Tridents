@@ -13,7 +13,7 @@ It also adds a fairly balanced crafting recipe requiring:
 
 __Install__
 
-Simply extract the archive directly to `datapacks` folder within your world.
+Simply download the zip archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases) and extract the archive directly to `datapacks` folder within your world.
 
 ## Prospective changes
 
