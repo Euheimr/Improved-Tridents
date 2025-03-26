@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        " b ",
+        " b "
+    ],
+    "key": {
+        "a": "minecraft:prismarine_shard",
+        "b": "minecraft:breeze_rod"
+    },
+    "result": {
+        "id": "minecraft:trident",
+        "count": 1
+    }
+}
