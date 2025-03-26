@@ -4,17 +4,24 @@ __Requires__: Minecraft 1.21.x+
 
 This datapack adds sensible enchantments to the [Trident](https://minecraft.wiki/w/Trident) to make it a viable melee and ranged weapon adjacent to the Sword.
 
-All enchants added are completely unmodified - except for Loyalty, which has a ~10-30% (scaling on enchant level) faster recall to hand when thrown.
+All enchants added are completely unmodified - except for [Loyalty](https://minecraft.wiki/w/Loyalty), which has a ~10-30% (scaling on enchant level) faster recall to hand when thrown.
 
-It also adds a fairly balanced crafting recipe requiring 2 x Breeze Rods and 3 x Prismatic Shards.
+It also adds a fairly balanced crafting recipe requiring:
+
+- 2 x [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod) and
+- 3 x [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard)
+
+__Install__
+
+Simply extract the archive directly to `datapacks` folder within your world.
 
 ## Prospective changes
 
-1. [DONE] __Craftable Tridents__ - 3 Prismarine Shards + 2 Breeze Rods
+1. [DONE] __Craftable Tridents__ - 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
 
     ![image](.github/img/trident-craft.png)
 
-2. [DONE] __Smeltable Tridents__ - a single trident smelts into 1 Breeze Rod
+2. [DONE] __Smeltable Tridents__ - a single trident smelts into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod)
 
     ![image](.github/img/trident-smelt.png)
 
@@ -45,7 +52,7 @@ It also adds a fairly balanced crafting recipe requiring 2 x Breeze Rods and 3 x
     __Only Mojang can do this__ or cannot be done with a datapack alone as __the functionality does not exist for datapacks__
 
    - ~~__Base Damage__:     9 ![image](.github/img/Heart.webp) -> 7 ![image](.github/img/Heart.webp)~~
-   - ~~__Attack speed__:    1.1 (~0.91 seconds) -> 2.0 (0.5 seconds)~~
+   - ~~__Attack speed__:    1.1 -> 2.0~~
    - ~~__Attack Range__:    3 blocks -> 3.5 blocks~~
    - ~~__Enchantments__:~~
         - ~~__Impaling__: Applies to all wet mobs (in water / rain) as well as aquatic mobs~~
