@@ -1,7 +1,7 @@
 {
     "pack": {
         "description": "Improved Tridents - add craftable tridents with sensible enchants adjacent to the Sword",
-        "pack_format": 61,
-        "supported_formats": [61,61]
+        "pack_format": 71,
+        "supported_formats": [48,71]
     }
 }
