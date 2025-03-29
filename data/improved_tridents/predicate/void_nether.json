@@ -1,0 +1,20 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{DealtDamage:0b}"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "y": {
+            "max": -40
+          }
+        },
+        "dimension": "minecraft:the_nether"
+      }
+    }
+]
