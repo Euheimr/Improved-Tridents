@@ -1,75 +1,83 @@
 # Improved Tridents (datapack)
 
-This datapack adds sensible improvements to the [Trident](https://minecraft.wiki/w/Trident) to make it a viable melee and ranged weapon adjacent to the Sword.
+This datapack adds sensible improvements and quality-of-life to the [Trident](https://minecraft.wiki/w/Trident) to make it a viable melee and ranged weapon adjacent to the Sword.
 
 __Requires__: Minecraft 1.21.x +
 
-All enchants added are completely unmodified - except for [Loyalty](https://minecraft.wiki/w/Loyalty), which has a ~10-30% (scaling on enchant level) faster recall to hand when thrown.
-
-It also adds a fairly balanced crafting recipe requiring:
-
-- 2 x [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod) and
-- 3 x [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard)
-
-Additionally, one trident is smeltable into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod).
-
-For more detail, see [Changes & TODO](#changes-todo) (below)!
+For more detail, see [Features](#features) and for unfinished work see [TODO](#todo)!
 
 ## __Install__
 
-Simply download the zip archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases) and extract the archive directly to `datapacks` folder within your world.
+Simply download the archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases) and extract the archive directly to the `datapacks` folder within your world / server.
 
-<h2 id="changes-todo">Changes & TODO</h2>
+If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents), use the [Modrinth app](https://modrinth.com/app) to install it __or__ you may download the archive and extract it to a new folder named `improved-tridents` within the `datapacks` folder.
 
-1. [DONE] __Craftable Tridents__ - 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
+<h2 id="features">Features</h2>
+
+- __Craftable Tridents__ - 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
 
     ![image](.github/img/trident-craft.png)
 
-2. [DONE] __Smeltable Tridents__ - a single trident smelts into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod)
+- __Smeltable Tridents__ - a single trident smelts into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod)
 
     ![image](.github/img/trident-smelt.png)
 
-3. [PARTIAL] __Enchantments__
+- __Loyalty Beyond the Void__ - Tridents enchanted with [Loyalty](https://minecraft.wiki/w/Loyalty) always return from the Void (pretty nice for the End)
 
-    - [x] [Looting](https://minecraft.wiki/w/Looting) - mobs to drop more items and increases the chances of rare drops
-    - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand
-    - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - melee attack sets attacked targets on fire
-    - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases melee knockback
-    - [ ] [Piercing](https://minecraft.wiki/w/Piercing)__<sup>1</sup>__ - arrows / projectiles to pass through entities
-    - [ ] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage on each hit against aquatic mobs __and wet mobs (in water/rain)__
-    - [x] [Sharpness](https://minecraft.wiki/w/Sharpness)__<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
-    - [x] [Smite](https://minecraft.wiki/w/Smite)__<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
-    - [x] [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
+- __Enchantments__ [PARTIAL] (see [TODO](#todo) for the unfinished stuff)
+
+  - [x] [Looting](https://minecraft.wiki/w/Looting) - mobs to drop more items and increases the chances of rare drops
+  - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand
+  - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - melee attack sets attacked targets on fire
+  - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases melee knockback
+  - [x] [Sharpness](https://minecraft.wiki/w/Sharpness)__<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
+  - [x] [Smite](https://minecraft.wiki/w/Smite)__<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
+  - [x] [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
+
+  __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
+
+
+<h2 id="todo">TODO</h2>
+
+- __Enchantments__ [PARTIAL]
+
+  - [ ] [Piercing](https://minecraft.wiki/w/Piercing)__<sup>1</sup>__ - arrows / projectiles to pass through entities
+  - [ ] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
 
     __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
 
-    __<sup>2</sup>__ *Only __one__ of these enchantments may be applied*
+    __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
 
-4. [ ] [Loyalty](https://minecraft.wiki/w/Loyalty) enchanted tridents return from the Void
+- [x] __[Loyalty](https://minecraft.wiki/w/Loyalty)__ enchanted tridents return from the Void
 
-5. [ ] [Trident](https://minecraft.wiki/w/Trident) returns to inventory slot it was thrown from
-   - __Note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
-
-6. ~~__Repairable Tridents__ - use breeze rod(s) to add durability~~  - __Cannot add recipes to Anvil :(__
-
-7. ~~__Combat Tests update__(unreleased experimental snapshot in 2019/2020 - [official wiki link](https://minecraft.wiki/w/Java_Edition_Combat_Tests))~~:
-
-    __Not possible__ to change item base stats globally in a datapack :(
-
-    __This functionality does not exist for datapacks__ *The enchantment changes might be doable though!*
-
-   - ~~__Base Damage__:     9 ![image](.github/img/Heart.webp) -> 7 ![image](.github/img/Heart.webp)~~
-   - ~~__Attack speed__:    1.1 -> 2.0~~
-   - ~~__Attack Range__:    3 blocks -> 3.5 blocks~~
-   - __Enchantments__:
-        - __Impaling__: Applies to all wet mobs (in water / rain) as well as aquatic mobs
-        - __Loyalty__: tridents thrown to the void (the End) always return to their owner
+- [ ] __[Trident](https://minecraft.wiki/w/Trident)__ returns to inventory slot it was thrown from
+  - __dev note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
 
 ---
 
 ---
 
 <h2 id="dev">Developer's Area</h2>
+
+### Notes
+
+- ~~__Repairable Tridents__ - use breeze rod(s) to add durability~~
+
+    __Cannot add recipes to Anvil :(__
+
+- ~~__Combat Tests update__(unreleased experimental snapshot in 2019/2020 - [official wiki link](https://minecraft.wiki/w/Java_Edition_Combat_Tests))~~:
+
+    __Not possible__ to change item base stats globally - __functionality does not exist for datapacks__ :(
+
+    *The enchantment changes might be doable though!*
+
+  - ~~__Base Damage__:     9 ![image](.github/img/Heart.webp) -> 7 ![image](.github/img/Heart.webp)~~
+  - ~~__Attack speed__:    1.1 -> 2.0~~
+  - ~~__Attack Range__:    3 blocks -> 3.5 blocks~~
+  - __Enchantments__:
+    - __Impaling__: Applies to all wet mobs (in water / rain) as well as aquatic mobs
+    - __Loyalty__: tridents thrown to the void (the End) always return to their owner
+
 
 ### Datapack Definitions
 
