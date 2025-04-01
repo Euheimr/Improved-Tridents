@@ -1,49 +1,49 @@
 {
-    "anvil_cost": 4,
-    "description": {
-      "translate": "enchantment.minecraft.looting"
-    },
-    "effects": {
-      "minecraft:equipment_drops": [
-        {
-          "effect": {
-            "type": "minecraft:add",
-            "value": {
-              "type": "minecraft:linear",
-              "base": 0.01,
-              "per_level_above_first": 0.01
-            }
-          },
-          "enchanted": "attacker",
-          "requirements": {
-            "condition": "minecraft:entity_properties",
-            "entity": "attacker",
-            "predicate": {
-              "type": "minecraft:player"
-            }
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.looting"
+  },
+  "effects": {
+    "minecraft:equipment_drops": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.01,
+            "per_level_above_first": 0.01
+          }
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "minecraft:player"
           }
         }
-      ]
-    },
-    "min_cost": {
-      "base": 15,
-      "per_level_above_first": 9
-    },
-    "max_cost": {
-      "base": 65,
-      "per_level_above_first": 9
-    },
-    "max_level": 3,
-    "slots": [
-      "mainhand"
-    ],
-    "supported_items": [
-      "minecraft:trident",
-      "minecraft:wooden_sword",
-      "minecraft:iron_sword",
-      "minecraft:golden_sword",
-      "minecraft:diamond_sword",
-      "minecraft:netherite_sword"
-    ],
-    "weight": 2
+      }
+    ]
+  },
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 3,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:trident",
+    "minecraft:wooden_sword",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword"
+  ],
+  "weight": 2
 }
