@@ -31,6 +31,8 @@ If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents),
   - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - __melee__ attack sets attacked targets on fire
   - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases __melee__ knockback
   - [x] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to __all wet mobs__ (in water/rain/waterlogged blocks) __*and*__ aquatic mobs
+    - __BIG THANK YOU to [Special_TT](https://modrinth.com/user/Special_TT/) for this feature!__
+    - [Special_TT](https://modrinth.com/user/Special_TT/) opened an [issue](https://github.com/Euheimr/Improved-Tridents/issues/1) permitting me to use his [[VET]Vanilla Enchantment Tweaker datapack](https://modrinth.com/datapack/-vanilla-enchantment-tweaker) as reference for this implementation!
   - [x] [Sharpness](https://minecraft.wiki/w/Sharpness)__<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
   - [x] [Smite](https://minecraft.wiki/w/Smite)__<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
   - [x] [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
