@@ -27,31 +27,34 @@ If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents),
 - __Enchantments__ [PARTIAL] (see [TODO](#todo) for the unfinished stuff)
 
   - [x] [Looting](https://minecraft.wiki/w/Looting) - mobs to drop more items and increases the chances of rare drops
-  - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand
-  - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - melee attack sets attacked targets on fire
-  - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases melee knockback
+  - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand when thrown
+  - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - __melee__ attack sets attacked targets on fire
+  - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases __melee__ knockback
+  - [x] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to __all wet mobs__ (in water/rain/waterlogged blocks) __*and*__ aquatic mobs
   - [x] [Sharpness](https://minecraft.wiki/w/Sharpness)__<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
   - [x] [Smite](https://minecraft.wiki/w/Smite)__<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
   - [x] [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
+
+  __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
 
   __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
 
 
 <h2 id="todo">TODO</h2>
 
-- __Enchantments__ [PARTIAL]
-
-  - [ ] [Piercing](https://minecraft.wiki/w/Piercing)__<sup>1</sup>__ - arrows / projectiles to pass through entities
-  - [ ] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
-
-    __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
-
-    __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
-
-- [x] __[Loyalty](https://minecraft.wiki/w/Loyalty)__ enchanted tridents return from the Void
-
 - [ ] __[Trident](https://minecraft.wiki/w/Trident)__ returns to inventory slot it was thrown from
   - __dev note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
+
+- __Enchantments__ [PARTIAL]
+
+  - [x] __[Loyalty](https://minecraft.wiki/w/Loyalty)__ enchanted tridents return from the Void
+  - [ ] [Piercing](https://minecraft.wiki/w/Piercing)__<sup>1</sup>__ - arrows / projectiles to pass through entities
+  - [x] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
+
+  __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
+
+  __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
+
 
 ---
 
