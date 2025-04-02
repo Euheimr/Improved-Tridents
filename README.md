@@ -8,55 +8,82 @@ For more detail, see [Features](#features) and for unfinished work see [TODO](#t
 
 ## __Install__
 
-Simply download the archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases) and extract the archive directly to the `datapacks` folder within your world / server.
+Simply download the archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases), create a new folder named `improved-tridents` within the `datapacks` folder, and extract the downloaded archive into that `improved-tridents` folder.
 
-If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents), use the [Modrinth app](https://modrinth.com/app) to install it __or__ you may download the archive and extract it to a new folder named `improved-tridents` within the `datapacks` folder.
+If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents), use the [Modrinth app](https://modrinth.com/app) to install it __or__ you may download the archive, create a new folder named `improved-tridents` within the `datapacks` folder, and extract the downloaded archive into that `improved-tridents` folder.
 
 <h2 id="features">Features</h2>
 
-- __Craftable Tridents__ - 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
+### 1. __Craftable Tridents__
 
-    ![image](.github/img/trident-craft.png)
+__Recipe__: 3 [Prismatic Shards](https://minecraft.wiki/w/Prismarine_Shard) + 2 [Breeze Rods](https://minecraft.wiki/w/Breeze_Rod)
 
-- __Smeltable Tridents__ - a single trident smelts into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod)
+  ![image](.github/img/trident-craft.png)
 
-    ![image](.github/img/trident-smelt.png)
+<br>
 
-- __Loyalty Beyond the Void__ - Tridents enchanted with [Loyalty](https://minecraft.wiki/w/Loyalty) always return from the Void (pretty nice for the End)
+### 2. __Smeltable Tridents__
 
-- __Enchantments__ [PARTIAL] (see [TODO](#todo) for the unfinished stuff)
+A single trident smelts into 1 [Breeze Rod](https://minecraft.wiki/w/Breeze_Rod)
 
-  - [x] [Looting](https://minecraft.wiki/w/Looting) - mobs to drop more items and increases the chances of rare drops
-  - [x] [Loyalty](https://minecraft.wiki/w/Loyalty) - has 30% faster recall-to-hand when thrown
-  - [x] [Fire Aspect](https://minecraft.wiki/w/Fire_Aspect) - __melee__ attack sets attacked targets on fire
-  - [x] [Knockback](https://minecraft.wiki/w/Knockback) -  increases __melee__ knockback
-  - [x] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to __all wet mobs__ (in water/rain/waterlogged blocks) __*and*__ aquatic mobs
-    - __BIG THANK YOU to [Special_TT](https://modrinth.com/user/Special_TT/) for this feature!__
-    - [Special_TT](https://modrinth.com/user/Special_TT/) opened an [issue](https://github.com/Euheimr/Improved-Tridents/issues/1) permitting me to use his [[VET]Vanilla Enchantment Tweaker datapack](https://modrinth.com/datapack/-vanilla-enchantment-tweaker) as reference for this implementation!
-  - [x] [Sharpness](https://minecraft.wiki/w/Sharpness)__<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
-  - [x] [Smite](https://minecraft.wiki/w/Smite)__<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
-  - [x] [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
+  ![image](.github/img/trident-smelt.png)
 
-  __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
+<br>
 
-  __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
+### 3. __Loyalty Beyond the Void__
 
+Tridents enchanted with [Loyalty](https://minecraft.wiki/w/Loyalty) always return from the Void (pretty nice for the End)
+
+<br>
+
+### 4. __Enchantments__ (see [TODO](#todo) for the unfinished stuff)
+
+- [x] __[Looting](https://minecraft.wiki/w/Looting)__ - mobs to drop more items and increases the chances of rare drops
+- [x] __[Loyalty](https://minecraft.wiki/w/Loyalty)__ - has 30% faster recall-to-hand when thrown
+- [x] __[Fire Aspect](https://minecraft.wiki/w/Fire_Aspect)__ - __melee__ attack sets attacked targets on fire
+- [x] __[Knockback](https://minecraft.wiki/w/Knockback)__ -  increases __melee__ knockback
+- [ ] __[Piercing](https://minecraft.wiki/w/Piercing)<sup>1</sup>__ - arrows / projectiles to pass through entities
+- [x] __[Impaling](https://minecraft.wiki/w/Impaling)<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to __all wet mobs__ (in water/rain/waterlogged blocks) __*and*__ aquatic mobs
+  - __BIG THANK YOU to [Special_TT](https://modrinth.com/user/Special_TT/) for this feature!__
+  - [Special_TT](https://modrinth.com/user/Special_TT/) opened an [issue](https://github.com/Euheimr/Improved-Tridents/issues/1) permitting me to use his [[VET]Vanilla Enchantment Tweaker datapack](https://modrinth.com/datapack/-vanilla-enchantment-tweaker) as reference for this implementation!
+- [x] __[Sharpness](https://minecraft.wiki/w/Sharpness)<sup>2</sup>__ - increases melee __and ranged/thrown__ damage
+- [x] __[Smite](https://minecraft.wiki/w/Smite)<sup>2</sup>__ - increases damage to undead mobs (Bogged, Drowned, Husk, Phantom, Skeleton, Wither, Wither Skeleton, Zoglin, Zombie, Zombie Villager, Zombified Piglin)
+- [x] __[Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)<sup>2</sup>__ - increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites)
+
+__<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
+
+__<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
+
+<br>
+
+### 5. __Enchanting Table__
+
+Provides the following enchantments __with the same vanilla weights__ as Sword / crossbow enchants:
+
+- [x] __[Looting](https://minecraft.wiki/w/Looting)__
+- [x] __[Fire Aspect](https://minecraft.wiki/w/Fire_Aspect)__
+- [x] __[Knockback](https://minecraft.wiki/w/Knockback)__
+- [x] __[Sharpness](https://minecraft.wiki/w/Sharpness)__
+- [x] __[Smite](https://minecraft.wiki/w/Smite)__
+- [x] __[Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)__
+- [ ] __[Piercing](https://minecraft.wiki/w/Piercing)__
+
+<br>
+
+---
 
 <h2 id="todo">TODO</h2>
 
 - [ ] __[Trident](https://minecraft.wiki/w/Trident)__ returns to inventory slot it was thrown from
-  - __dev note__: tag the trident when thrown, then run an if command to check if the tag exists and send it to that slot / offhand
+  - __dev note__: tag the trident when thrown, save slot value, then run an if command to check if the tag exists and send it to that slot / offhand
 
-- __Enchantments__ [PARTIAL]
-
-  - [x] __[Loyalty](https://minecraft.wiki/w/Loyalty)__ enchanted tridents return from the Void
-  - [ ] [Piercing](https://minecraft.wiki/w/Piercing)__<sup>1</sup>__ - arrows / projectiles to pass through entities
-  - [x] [Impaling](https://minecraft.wiki/w/Impaling)__<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
+- __Enchantments__
+  - [ ] __[Piercing](https://minecraft.wiki/w/Piercing)<sup>1</sup>__ - arrows / projectiles to pass through entities
+  - [x] __[Impaling](https://minecraft.wiki/w/Impaling)<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
 
   __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
 
   __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
-
 
 ---
 

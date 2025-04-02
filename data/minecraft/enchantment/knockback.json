@@ -1,7 +1,7 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.looting"
+    "translate": "enchantment.minecraft.knockback"
   },
   "primary_items": [
     "minecraft:wooden_sword",
@@ -23,32 +23,24 @@
     "mainhand"
   ],
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
+    "base": 5,
+    "per_level_above_first": 20
   },
   "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
+    "base": 55,
+    "per_level_above_first": 20
   },
-  "max_level": 3,
-  "weight": 2,
+  "max_level": 2,
+  "weight": 5,
   "effects": {
-    "minecraft:equipment_drops": [
+    "minecraft:knockback": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.01,
-            "per_level_above_first": 0.01
-          }
-        },
-        "enchanted": "attacker",
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "attacker",
-          "predicate": {
-            "type": "minecraft:player"
+            "base": 1.0,
+            "per_level_above_first": 1.0
           }
         }
       }
