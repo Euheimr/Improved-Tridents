@@ -10,7 +10,13 @@ For more detail, see [Features](#features) and for unfinished work see [TODO](#t
 
 Simply download the archive from [Releases](https://github.com/Euheimr/Improved-Tridents/releases), create a new folder named `improved-tridents` within the `datapacks` folder, and extract the downloaded archive into that `improved-tridents` folder.
 
-If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents), use the [Modrinth app](https://modrinth.com/app) to install it __or__ you may download the archive, create a new folder named `improved-tridents` within the `datapacks` folder, and extract the downloaded archive into that `improved-tridents` folder.
+If downloading from [Modrinth](https://modrinth.com/datapack/improved-tridents):
+
+- use the [Modrinth app](https://modrinth.com/app) to install it
+- __or__ you may download the archive, create a new folder named `improved-tridents` within the `datapacks` folder, and extract the downloaded archive into that `improved-tridents` folder.
+
+__Important note__: If you have an old version and are __NOT__ using the Modrinth App, be sure to delete the entire folder (`improved-tridents` folder) from `datapacks` before installing!
+
 
 <h2 id="features">Features</h2>
 
