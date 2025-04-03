@@ -83,13 +83,10 @@ Provides the following enchantments __with the same vanilla weights__ as Sword /
 - [ ] __[Trident](https://minecraft.wiki/w/Trident)__ returns to inventory slot it was thrown from
   - __dev note__: tag the trident when thrown, save slot value, then run an if command to check if the tag exists and send it to that slot / offhand
 
+<br>
+
 - __Enchantments__
   - [ ] __[Piercing](https://minecraft.wiki/w/Piercing)<sup>1</sup>__ - arrows / projectiles to pass through entities
-  - [x] __[Impaling](https://minecraft.wiki/w/Impaling)<sup>1</sup>__ __<sup>2</sup>__ - deal extra damage to wet mobs (in water/rain)
-
-  __<sup>1</sup>__ *__Piercing__ may not be applied with __Impaling__*
-
-  __<sup>2</sup>__ *Only __ONE__ of these enchantments ([Impaling](https://minecraft.wiki/w/Impaling) / [Sharpness](https://minecraft.wiki/w/Sharpness) / [Smite](https://minecraft.wiki/w/Smite)/ [Bane of Arthropods](https://minecraft.wiki/w/Bane_of_Arthropods)) may be applied*
 
 ---
 
