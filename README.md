@@ -4,6 +4,8 @@ This datapack adds sensible improvements and quality-of-life to the [Trident](ht
 
 __Requires__: Minecraft 1.21.x +
 
+__The changes are intended to be as fairly balanced as possible.__ For balance issues and bugs, please open an issue [here on Github](https://github.com/Euheimr/Improved-Tridents/issues/new).
+
 For more detail, see [Features](#features) and for unfinished work see [TODO](#todo)!
 
 ## __Install__
